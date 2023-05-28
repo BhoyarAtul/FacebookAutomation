@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="EdgeTest(failed)(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="TestNGClasses.VerifyTheLoginPage">
+        <methods>
+          <include name="verifyTheFunctionalityOfLogInButton"/>
+          <include name="closeBrowser"/>
+          <include name="clearObjects"/>
+          <include name="openUrlOfFacebook"/>
+          <include name="feedDetails"/>
+          <include name="afterMethod"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- TestNGClasses.VerifyTheLoginPage -->
+    </classes>
+  </test> <!-- EdgeTest(failed)(failed) -->
+  <test thread-count="2" parallel="tests" name="ChromeTest(failed)(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="TestNGClasses.VerifyTheLoginPage">
+        <methods>
+          <include name="verifyTheFunctionalityOfLogInButton"/>
+          <include name="closeBrowser"/>
+          <include name="clearObjects"/>
+          <include name="openUrlOfFacebook"/>
+          <include name="feedDetails"/>
+          <include name="afterMethod"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- TestNGClasses.VerifyTheLoginPage -->
+    </classes>
+  </test> <!-- ChromeTest(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-27T23:32:26 IST" name="Suite" finished-at="2023-05-27T23:32:37 IST" duration-ms="10958">
+    <groups>
+    </groups>
+    <test started-at="2023-05-27T23:32:26 IST" name="ChromeTest" finished-at="2023-05-27T23:32:37 IST" duration-ms="10958">
+      <class name="TestNGClasses.VerifyTheLoginPage">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:TestNGClasses.VerifyTheLoginPage@4facf68f]" started-at="2023-05-27T23:32:26 IST" name="openBrowser" finished-at="2023-05-27T23:32:28 IST" duration-ms="1636" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openUrlOfFacebook()[pri:0, instance:TestNGClasses.VerifyTheLoginPage@4facf68f]" started-at="2023-05-27T23:32:29 IST" name="openUrlOfFacebook" finished-at="2023-05-27T23:32:31 IST" duration-ms="1743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrlOfFacebook -->
+        <test-method is-config="true" signature="feedDetails()[pri:0, instance:TestNGClasses.VerifyTheLoginPage@4facf68f]" started-at="2023-05-27T23:32:31 IST" name="feedDetails" finished-at="2023-05-27T23:32:32 IST" duration-ms="1020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feedDetails -->
+        <test-method signature="verifyTheFunctionalityOfLogInButton()[pri:0, instance:TestNGClasses.VerifyTheLoginPage@4facf68f]" started-at="2023-05-27T23:32:32 IST" name="verifyTheFunctionalityOfLogInButton" finished-at="2023-05-27T23:32:37 IST" duration-ms="5148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheFunctionalityOfLogInButton -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNGClasses.VerifyTheLoginPage@4facf68f]" started-at="2023-05-27T23:32:37 IST" name="afterMethod" finished-at="2023-05-27T23:32:37 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="clearObjects()[pri:0, instance:TestNGClasses.VerifyTheLoginPage@4facf68f]" started-at="2023-05-27T23:32:37 IST" name="clearObjects" finished-at="2023-05-27T23:32:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObjects -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNGClasses.VerifyTheLoginPage@4facf68f]" started-at="2023-05-27T23:32:37 IST" name="closeBrowser" finished-at="2023-05-27T23:32:37 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestNGClasses.VerifyTheLoginPage -->
+      <class name="TestNGClasses.VerifyTheLoginPage2">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:TestNGClasses.VerifyTheLoginPage2@72f926e6]" started-at="2023-05-27T23:32:28 IST" name="openBrowser" finished-at="2023-05-27T23:32:29 IST" duration-ms="835" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openUrlOfFacebook()[pri:0, instance:TestNGClasses.VerifyTheLoginPage2@72f926e6]" started-at="2023-05-27T23:32:29 IST" name="openUrlOfFacebook" finished-at="2023-05-27T23:32:31 IST" duration-ms="1713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrlOfFacebook -->
+        <test-method is-config="true" signature="feedDetails()[pri:0, instance:TestNGClasses.VerifyTheLoginPage2@72f926e6]" started-at="2023-05-27T23:32:31 IST" name="feedDetails" finished-at="2023-05-27T23:32:32 IST" duration-ms="1035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feedDetails -->
+        <test-method signature="verifyTheFunctionalityOfLogInButton2()[pri:0, instance:TestNGClasses.VerifyTheLoginPage2@72f926e6]" started-at="2023-05-27T23:32:32 IST" name="verifyTheFunctionalityOfLogInButton2" finished-at="2023-05-27T23:32:37 IST" duration-ms="5415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheFunctionalityOfLogInButton2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNGClasses.VerifyTheLoginPage2@72f926e6]" started-at="2023-05-27T23:32:37 IST" name="afterMethod" finished-at="2023-05-27T23:32:37 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="clearObjects()[pri:0, instance:TestNGClasses.VerifyTheLoginPage2@72f926e6]" started-at="2023-05-27T23:32:37 IST" name="clearObjects" finished-at="2023-05-27T23:32:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObjects -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNGClasses.VerifyTheLoginPage2@72f926e6]" started-at="2023-05-27T23:32:37 IST" name="closeBrowser" finished-at="2023-05-27T23:32:37 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestNGClasses.VerifyTheLoginPage2 -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
